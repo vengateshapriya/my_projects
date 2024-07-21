@@ -1,0 +1,587 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1 {
+ background-color: white;
+ font-family:"Montserrat" ;
+ font-weight: 500;
+ 
+}
+h3{
+ 
+    font-family:"Montserrat";
+    font-weight: 400;
+    position: absolute;
+    top:42%;
+    left: 61%;
+    color: black;
+    font-size: 15px;
+   font-style:normal;
+   font-weight: 400;
+}
+h4{
+    font-family:"Montserrat" ;
+    color: black;
+    font-weight: 300;
+    font-size: 30px;
+}
+.pic img{
+    min-height: 100%;
+    width: 40%;
+    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+.content{
+    color: black;
+    position: absolute;
+    top: 24%;
+    left: 63%;
+    font-size: 35px;
+    font-family:"Montserrat" ;
+    font-weight: lighter;
+}
+
+button{
+    position: absolute;
+    top: 170px ;
+    right: 20px;
+    color: black;
+    background-color: rgb(202, 202, 209);
+    border: 1px solid #d7e5e6;
+    border-radius: 0;
+    cursor: pointer;
+    outline: none ;
+    width: 150px;
+    height: 50px;
+    font-family:"Montserrat" ;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #858c8d;
+}
+.port{
+    position: absolute;
+    top: 85%;
+    left: 42%;
+    color: rgb(140, 140, 151);
+    font-size: 23px;
+}
+hr{
+   margin-top: 600px; 
+}
+.a img{
+    position: relative;
+    width: 367px;
+    height: 255px;
+    left: 42%;
+    bottom: -1px;
+}
+.b img{
+    position: relative;
+    width: 367px;
+    height: 600px;
+    left: 42%;
+    bottom: -8px ;
+}
+.c img{
+    position: relative;
+    width: 367px;
+    height: 250px;
+    left: 42%;
+    bottom:-16px ;
+} 
+.d img{
+    position: relative;
+    width: 365px;
+    height: 391px;
+    left: 71%;
+    top: -1115px;
+   
+}
+.e img{
+    position: relative;
+    width: 365px;
+    height: 225px;
+    left: 71%;
+    top: -1107px; 
+}
+.f img{
+    position: relative;
+    width: 365px;
+    height: 225px;
+    left: 71%;
+    top: -1099px; 
+}
+.g img{
+    position: relative;
+    width: 365px;
+    height: 250px;
+    left: 71%;
+    top: -1091px; 
+}
+.skill-area{
+    display: flex;
+    flex-direction: column;
+}
+.progress{
+    height: 35px;
+    width: 55%;
+    background-color: rgb(137, 146, 146);
+    position: absolute;
+    left: 42.5%;
+    top: 2300px;
+}
+.progress-in{
+    position: absolute;
+    left: 42.5%;
+    top: 2300px;
+    border-radius: 0;
+    background: rgb(88, 85, 85);
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.skill-percent{
+    position: absolute;
+    align-items: center;
+    color: white;
+    left: 50%;
+    top: 6.5px;
+}
+.progres{
+    height: 35px;
+    width: 55%;
+    background-color: rgb(137, 146, 146);
+    position: absolute;
+    left: 42.5%;
+    top: 2400px;
+}
+.progres-in{
+    position: absolute;
+    left: 42.5%;
+    top: 2400px;
+    border-radius: 0;
+    background: rgb(88, 85, 85);
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.skil-percent{
+    position: absolute;
+    align-items: center;
+    color: white;
+    left: 50%;
+    top: 6.5px;
+}
+.progresss{
+    height: 35px;
+    width: 55%;
+    background-color: rgb(137, 146, 146);
+    position: absolute;
+    left: 42.5%;
+    top: 2500px;
+}
+.progresss-in{
+    position: absolute;
+    left: 42.5%;
+    top: 2500px;
+    border-radius: 0;
+    background: rgb(88, 85, 85);
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.skilll-percent{
+    position: absolute;
+    align-items: center;
+    color: white;
+    left: 50%;
+    top: 6.5px;
+}
+nav {
+    top: 2580px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 42.5%;
+    background-color: rgb(159, 168, 168); 
+    height: 100px;
+    width: 55%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 65px;
+    
+
+}
+nav li {
+    padding: 10px;
+    text-align: center;
+
+}
+.slide {
+    height: 100%;
+    width: 58%;
+    left: 42%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    transition: ease-in.5s step-end;
+    transform: translateX(-200%);
+    z-index: 1;
+  }
+  ul li {
+    list-style: none;
+  }
+  ul li:hover a {
+    color: white;
+    background-color: rgb(110, 106, 106);
+  }
+  ul li a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+    color: azure;
+    font-size: 30px;
+    display: block;
+    text-transform: capitalize;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'montserrat';
+  }
+  input {
+    display: none;
+    visibility: hidden;
+  }
+  .toggle {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 95%;
+    top: 15px;
+    z-index: 2;
+    cursor: pointer;
+    background-color: white;
+  }
+  .toggle .common {
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background-color: rgb(120, 112, 112);
+    border-radius: 50px;
+    transition: 0.3s ease;
+  }
+  .toggle .top_line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .toggle .middle_line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .toggle .bottom_line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  input:checked ~ .toggle .top_line {
+    left: 10px;
+    top: 23px;
+    width: 30px;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  input:checked ~ .toggle .bottom_line {
+    left: 10px;
+    top: 23px;
+    width: 30px;
+    transform: rotate(-45deg);
+    z-index: 1;
+  }
+  input:checked ~ .toggle .middle_line {
+    opacity: 0;
+    transform: translateX(25px);
+    z-index: 1;
+  }
+  input:checked ~ .slide {
+    transform: translateX(0);
+    z-index: 1;
+
+  }
+  .buttons{
+    position: absolute;
+    top: 2725px ;
+    left: 42.5%;;
+    color: black;
+    background-color: rgb(202, 202, 209);
+    border: 1px solid #d7e5e6;
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-family:"Montserrat" ;
+    font-weight: 500;
+  }
+  .buttons:hover{
+    background-color: #8c9192;
+  }
+  .r img{
+    left: 43.5%;
+    top: 2850px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .s img{
+    left: 43.5%;
+    top: 2965px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .v img{
+    position: absolute;
+    left: 43.5%;
+    top: 3080px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+.pricing-table {
+    display: flex;
+    gap: 30px;
+    z-index: 1;
+    top: 420px;
+    position: relative;
+    left: 580px;
+    font-family: 'montserrat';
+}
+.pricing-plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    font-family: 'montserrat';
+}
+.pricing-plan .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'montserrat';
+}
+.pricing-plan .header.basic {
+    background-color: #666;
+
+
+}
+.pricing-plan .header.pro {
+    background-color: #000;
+   
+
+}
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pricing-plan li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    font-size: 16px;
+}
+.pricing-plan .price {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.pricing-plan .price small {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    color: #777;
+}
+.pricing-plan .sign-up {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+   top:400%;
+   z-index: 1;
+   top: 365px;
+   height: 30px;
+}
+.pricing-plan .sign-up button {
+    background-color:rgb(170, 179, 177);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    right: 710px;
+    top: 370px;
+    height: 35px;
+    font-family: 'montserrat';
+}
+
+.pricing-plan .sign-up1 button {
+    background-color: (170, 179, 177);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    right: 990px;
+    left: 90px;
+    top: 370px;
+    height: 35px;
+    font-family: 'montserrat';
+
+}
+.pricing-plan .sign-up button:hover {
+    background-color:black;
+}
+.pricing-plan .sign-up1 button:hover {
+    background-color:black;
+}
+.p img{
+    left: 43%;
+    top: 3950px;
+    height: 400px;
+    width: 55%;
+    position: absolute;
+}
+@media screen and (max-width:600px)
+{
+.pic img{
+    top: 290px;
+    min-height: 80%;
+    width: 80%;
+    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    position: absolute;
+    left: 50px;
+    background-position: center;
+}
+.content{
+    color: black;
+    position: absolute;
+    top: 18%;
+    left: 35%;
+    font-size: 30px;
+    font-family:"Montserrat" ;
+    font-weight: lighter;
+}
+h3{
+    font-family:"Montserrat";
+    font-weight: 400;
+    position: absolute;
+    top:33%;
+    left: 28%;
+    color: black;
+    font-size: 14px;
+   font-weight: 400;
+}
+button{
+    position: absolute;
+    top: 1100%;
+    left: 20%;
+    color: black;
+    background-color: rgb(202, 202, 209);
+    border: 1px solid #d7e5e6;
+    border-radius: 0;
+    cursor: pointer;
+    outline: none ;
+    width: 150px;
+    height: 50px;
+    font-family:"Montserrat" ;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #858c8d;
+}
+.port{
+    position: absolute;
+    top: 980px;
+    left: 5%;
+    color: rgb(140, 140, 151);
+    font-size: 23px;
+}
+.a img{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    left: 5%;
+    top:400px ;
+}
+.b img{
+    position: relative;
+    width: 450px;
+    height: 700px;
+    left: 5%;
+    top:420px ;
+}
+.c img{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    left: 5%;
+    top:450px ;
+} 
+.d img{
+    position: relative;
+    width: 365px;
+    height: 391px;
+    left: 71%;
+    top: -1115px;
+   
+}
+.e img{
+    position: relative;
+    width: 365px;
+    height: 225px;
+    left: 71%;
+    top: -1107px; 
+}
+.f img{
+    position: relative;
+    width: 365px;
+    height: 225px;
+    left: 71%;
+    top: -1099px; 
+}
+.g img{
+    position: relative;
+    width: 365px;
+    height: 250px;
+    left: 71%;
+    top: -1091px; 
+}
+}
+  
